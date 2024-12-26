@@ -368,9 +368,14 @@ a img.aligncenter {
     SECTIONS
 -------------------------------------------------------------------*/
 
-.main-banner{
-	height: 100%;
-	position: relative;
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind the content */
 }
 
 .main-banner{
@@ -2615,4 +2620,17 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+ul.list-style-lis li {
+  margin-top: 14px;
+  font-size: 18px;
+  color: var(--heading-color);
+}
+
+ul.list-style-lis li i {
+  color: var(--primary-color);
+  margin-right: 6px;
+}
+.blue-icon {
+    color: blue;
 }

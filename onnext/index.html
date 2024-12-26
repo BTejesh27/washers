@@ -27,6 +27,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -85,53 +87,68 @@
       </div>
     </nav>
 	
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+	<section id="home" class="main-banner parallaxie">
+		<video autoplay muted loop playsinline class="background-video">
+			<source src="assets/video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
 		<div class="heading">
-			<h1>Welcome to OnNext</h1>			
+			<h1>Smart Wash</h1>			
 			<h3 class="cd-headline clip is-full-width">
-				<span>Lorem Ipsum Dolor Sit Amet </span>
+				<span>Laundry & Dry Cleaning Services </span>
 				<span class="cd-words-wrapper">
-					<b class="is-visible">Web Developer</b>
-					<b>Web Design</b>
-					<b>Creative Design</b>
-					<b>Graphic Design</b>
+					<b class="is-visible">Saree Rolling</b>
+					<b>Dry Cleaning</b>
+					<b>Shoe Laundry</b>
+					<b>Wash & Fold</b>
+					<b>Steam Press</b>
+
 				</span>
-				<div class="btn-ber">
+				<!-- // buttons -->
+				<!-- <div class="btn-ber">
 					<a class="get_btn hvr-bounce-to-top" href="#">Get started</a>
 					<a class="learn_btn hvr-bounce-to-top" href="#">Learn More</a>
-				</div>
+				</div> -->
 			</h3>
 		</div>
 	</section>
-
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2>Welcome to OnNext</h2>
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-						<p>Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
-
-                        <a href="#" class="sim-btn hvr-bounce-to-top"><span>Contact Us</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
 	
-    <div id="services" class="section lb">
+
+	<div id="about" class="section wb">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="message-box">
+						<h2>Welcome to Smart Wash</h2>
+						<h4>We are passionate about Laundry</h4>
+						<p>At Smart Wash, we are passionate about providing efficient, eco-friendly laundry solutions. We focus on delivering spotless, fresh clothes while saving you time and making laundry hassle-free.</p>
+						<ul class="mt-4 list-style-lis">
+							<li><i class="fas fa-check-circle blue-icon"></i> 100% Customer Satisfaction</li>
+							<li><i class="fas fa-check-circle blue-icon"></i> Free Collection & Delivery</li>
+							<li><i class="fas fa-check-circle blue-icon"></i> Affordable Prices</li>
+						</ul>
+						<a class="sim-btn hvr-bounce-to-top nav-link js-scroll-trigger" href="#contact"><span>Contact Us</span></a>
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+	
+				<div class="col-md-6">
+					<div class="right-box-pro wow fadeIn">
+						<img src="images/aboutimage.jpg" alt="" class="img-fluid img-rounded">
+					</div><!-- end media -->
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+	
+
+
+
+	<!-- <div id="services" class="section lb">
         <div class="container">
             <div class="section-title text-center">
                 <h3>Services</h3>
                 <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
-            </div><!-- end title -->
+			</div>
 
             <div class="row">
 				<div class="col-md-4">
@@ -142,7 +159,7 @@
 						<h2>Web Development</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
                 <div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -151,7 +168,7 @@
 						<h2>Responsive Design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -160,7 +177,7 @@
 						<h2>Creative Design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -169,7 +186,7 @@
 						<h2>Support</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -178,7 +195,7 @@
 						<h2>Web Idea</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
+                </div>
 				<div class="col-md-4">
                     <div class="services-inner-box">
 						<div class="ser-icon">
@@ -187,10 +204,54 @@
 						<h2>Graphic Design</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+	
+	
+	<div id="services" class="section lb">
+		<div class="container">
+			<div class="section-title text-center">
+				<h3>Services</h3>
+				<p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+			</div><!-- end title -->
+	
+			<div class="row">
+				<div class="col-md-4">
+					<div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-stopwatch-20"></i>
+						</div>
+						<h2>Time & Budget Savior</h2>
+						<p>With Smart Wash, enjoy affordable laundry solutions that save you hours of effort. Let us handle your laundry efficiently, freeing up your schedule without breaking the bank.</p>
+					</div>
+				</div><!-- end col -->
+				
+				<div class="col-md-4">
+					<div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-comments-dollar"></i>
+						</div>
+						<h2>Tap, Pay, Done!</h2>
+						<p>Smart Wash offers seamless online payment options. Complete your transaction in just a few clicks, making the process quick, secure, and hassle-free.</p>
+					</div>
+				</div><!-- end col -->
+				
+				<div class="col-md-4">
+					<div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="fas fa-thumbs-up"></i>
+						</div>
+						<h2>Happiness, Delivered</h2>
+						<p>Smart Wash guarantees spotless results, timely delivery, and exceptional service, ensuring your complete satisfaction with every laundry order.</p>
+					</div>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+	
 	
 	<div id="portfolio" class="section lb">
 		<div class="container">
